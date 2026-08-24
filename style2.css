@@ -1,0 +1,55 @@
+*{
+    border: 0;
+padding: 0;
+box-sizing: border-box;
+zoom: 100%; 
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
+min-height: 100vh;
+display: flex;
+}
+
+.contenedor-campus{
+    background-image: url(imagenes_colegio/campus.png);
+    width: 60%;
+   
+    
+}
+.logo-phone{
+    width: 700px;
+    align-items: center;
+}
+
+.cont-logo-campus{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     padding: 12px 20px;
+     font-size: 20px;
+}
+.logo-campus{
+    width: 500px;
+      margin-right: 14px;
+    font-size: 13px;
+}
+
+.cont-login{
+    display: flex;
+    justify-content:right ;
+    align-items: center;
+}
+
+.boton-ingresar{
+    justify-content: center ;
+    display: flex;
+     color: #FFF ;
+    background: #023859;
+}
+
+.logos-playstore{
+    display: flex;
+    align-items: center;
+    width: 3px;
+}
